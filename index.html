@@ -20,28 +20,41 @@
                     <li class="block1__li">Продукты</li>
                     <li class="block1__li">Одежда</li>
                     <li class="block1__li">Кафе</li>
-                    <li class="block1__li">Кино</li>
+                    <li class="block1__li">Напитки</li>
                 </ul>
             </div>
             <div class="block2">
-                <ul class="block2__ul">
-                    <li class="block2__li">Наименование</li>
-                    <li class="block2__li">Категория</li>
-                    <li class="block2__li">Цена</li>
-                </ul>
+                <table class="table">
+                    <thead class="thead">
+                        <tr class="block2__tr">
+                            <td class="name">
+                                <h3 class="razmer">Наименование</h3>
+                            </td>
+                            <td class="category">
+                                <h3 class="razmer">Категория</h3>
+                            </td>
+                            <td class="price">
+                                <h3 class="razmer">Цена</h3>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
             </div>
             <div class="block3">
-                <ul class="block3__ul">
-                    <li class="block3__li">Товар:</li>
-                </ul>
-                <input type="Наименование" class="block3__in">
-                <ul class="block3__ul1">
-                    <li class="block3__li1">Цена:</li>
-                </ul>
-                <input type="0" class="block3__in1">
-                <ul class="block3__ul2">
-                    <li class="block3__li2">Категория</li>
-                </ul>
+                <div class="block3__info">
+                    <div class="tovar">Товар:</div>
+                    <input type="text" class="name1">
+                </div>
+                <div class="block3__info">
+                    <div class="zena">Цена:</div>
+                    <input type="text" class="name2">
+                </div>
+                <select class="select">
+                    <option>Продукты</option>
+                    <option>Одежда</option>
+                    <option>Кафе</option>
+                    <option selected>Напитки</option>
+                </select>
                 <button class="btn">Добавить</button>
             </div>
         </div>
