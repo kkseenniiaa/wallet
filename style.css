@@ -8,6 +8,7 @@ body {
     padding: 0;
 }
 
+
 ul, li{
     list-style-type: none;
 }
@@ -44,6 +45,12 @@ ul, li{
 .block1__dgm{
     width: 300px;
     height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0 70deg
+    )
 }
 .block1__li {
     background-color: rgb(157, 199, 238);
